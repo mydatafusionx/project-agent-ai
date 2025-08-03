@@ -4,8 +4,8 @@ from typing import List, Dict, Any, Optional
 from langchain.vectorstores import FAISS, Chroma
 from langchain.schema import Document
 from langchain.embeddings.base import Embeddings
-from config.settings import settings
-from models.model_manager import get_model_manager
+from agent_fleet.config.settings import settings
+from agent_fleet.models.model_manager import get_model_manager
 
 logger = logging.getLogger(__name__)
 

@@ -1,0 +1,57 @@
+2025-08-03 14:17:55,963 - root - ERROR - Erro ao importar módulos necessários: No module named 'langchain'
+2025-08-03 14:17:55,963 - root - INFO - Certifique-se de que todas as dependências estão instaladas corretamente.
+2025-08-03 14:17:55,963 - root - INFO - Execute: pip install -r requirements.txt
+2025-08-03 14:19:42,451 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-08-03 14:19:43,661 - root - ERROR - Erro ao importar módulos necessários: No module named 'models'
+2025-08-03 14:19:43,661 - root - INFO - Certifique-se de que todas as dependências estão instaladas corretamente.
+2025-08-03 14:19:43,661 - root - INFO - Execute: pip install -r requirements.txt
+2025-08-03 14:19:52,969 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-08-03 14:19:53,605 - root - ERROR - Erro ao importar módulos necessários: No module named 'models'
+2025-08-03 14:19:53,605 - root - INFO - Certifique-se de que todas as dependências estão instaladas corretamente.
+2025-08-03 14:19:53,605 - root - INFO - Execute: pip install -r requirements.txt
+2025-08-03 14:21:34,077 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-08-03 14:21:34,947 - agent_fleet.models.model_manager - INFO - Modelo gpt-4 inicializado com sucesso.
+2025-08-03 14:21:35,244 - agent_fleet.models.model_manager - ERROR - Erro ao carregar modelo llama2-7b: 401 Client Error: Unauthorized for url: https://huggingface.co/api/models/meta-llama/Llama-2-7b-chat-hf (Request ID: Root=1-688f9a9f-2d5aca8e2e050d4223e3e23c;b62086ed-dc4d-4aa5-9334-0638a7b443c4)
+
+Invalid credentials in Authorization header
+2025-08-03 14:21:35,244 - agent_fleet.models.model_manager - ERROR - Erro ao inicializar modelo llama2-7b: 401 Client Error: Unauthorized for url: https://huggingface.co/api/models/meta-llama/Llama-2-7b-chat-hf (Request ID: Root=1-688f9a9f-2d5aca8e2e050d4223e3e23c;b62086ed-dc4d-4aa5-9334-0638a7b443c4)
+
+Invalid credentials in Authorization header
+2025-08-03 14:21:35,389 - agent_fleet.models.model_manager - ERROR - Erro ao carregar modelo flan-t5-xxl: 401 Client Error: Unauthorized for url: https://huggingface.co/api/models/google/flan-t5-xxl (Request ID: Root=1-688f9a9f-7fab180f397ddb4c0451e3b1;cbc4e411-2823-4a5c-8564-e3c80c25720d)
+
+Invalid credentials in Authorization header
+2025-08-03 14:21:35,389 - agent_fleet.models.model_manager - ERROR - Erro ao inicializar modelo flan-t5-xxl: 401 Client Error: Unauthorized for url: https://huggingface.co/api/models/google/flan-t5-xxl (Request ID: Root=1-688f9a9f-7fab180f397ddb4c0451e3b1;cbc4e411-2823-4a5c-8564-e3c80c25720d)
+
+Invalid credentials in Authorization header
+2025-08-03 14:22:04,508 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-08-03 14:29:26,227 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-08-03 14:29:27,052 - agent_fleet.models.model_manager - INFO - Modelo gpt-4 inicializado com sucesso.
+2025-08-03 14:29:27,343 - agent_fleet.models.model_manager - ERROR - Erro ao carregar modelo llama2-7b: 401 Client Error: Unauthorized for url: https://huggingface.co/api/models/meta-llama/Llama-2-7b-chat-hf (Request ID: Root=1-688f9c77-1e7ecbd96987404c04b5b2ff;6e5dc541-51e7-49e5-a8ad-fda0f2ef75b3)
+
+Invalid credentials in Authorization header
+2025-08-03 14:29:27,343 - agent_fleet.models.model_manager - ERROR - Erro ao inicializar modelo llama2-7b: 401 Client Error: Unauthorized for url: https://huggingface.co/api/models/meta-llama/Llama-2-7b-chat-hf (Request ID: Root=1-688f9c77-1e7ecbd96987404c04b5b2ff;6e5dc541-51e7-49e5-a8ad-fda0f2ef75b3)
+
+Invalid credentials in Authorization header
+2025-08-03 14:29:27,490 - agent_fleet.models.model_manager - ERROR - Erro ao carregar modelo flan-t5-xxl: 401 Client Error: Unauthorized for url: https://huggingface.co/api/models/google/flan-t5-xxl (Request ID: Root=1-688f9c77-5fbc9c127d9a3468784e150f;6cc999da-7331-442f-af76-a684cd8bfaf1)
+
+Invalid credentials in Authorization header
+2025-08-03 14:29:27,491 - agent_fleet.models.model_manager - ERROR - Erro ao inicializar modelo flan-t5-xxl: 401 Client Error: Unauthorized for url: https://huggingface.co/api/models/google/flan-t5-xxl (Request ID: Root=1-688f9c77-5fbc9c127d9a3468784e150f;6cc999da-7331-442f-af76-a684cd8bfaf1)
+
+Invalid credentials in Authorization header
+2025-08-03 14:29:30,637 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-08-03 14:33:27,558 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-08-03 14:33:28,395 - agent_fleet.models.model_manager - INFO - Modelo gpt-4 inicializado com sucesso.
+2025-08-03 14:33:28,711 - agent_fleet.models.model_manager - INFO - Modelo llama2-7b inicializado com sucesso.
+2025-08-03 14:33:28,874 - agent_fleet.models.model_manager - ERROR - Erro ao carregar modelo flan-t5-xxl: 1 validation error for HuggingFaceHub
+__root__
+  Got invalid task None, currently only dict_keys(['translation', 'summarization', 'conversational', 'text-generation', 'text2text-generation']) are supported (type=value_error)
+2025-08-03 14:33:28,875 - agent_fleet.models.model_manager - ERROR - Erro ao inicializar modelo flan-t5-xxl: 1 validation error for HuggingFaceHub
+__root__
+  Got invalid task None, currently only dict_keys(['translation', 'summarization', 'conversational', 'text-generation', 'text2text-generation']) are supported (type=value_error)
+2025-08-03 14:33:32,029 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-08-03 14:34:35,824 - faiss.loader - INFO - Loading faiss.
+2025-08-03 14:34:36,176 - faiss.loader - INFO - Successfully loaded faiss.
+2025-08-03 14:34:36,182 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-03 14:34:36,184 - agent_fleet.vector_store.vector_store - INFO - Novo banco de dados vetorial criado.
+2025-08-03 14:34:36,184 - agent_fleet.vector_store.vector_store - INFO - Banco de dados vetorial carregado com sucesso.
+2025-08-03 14:34:36,377 - agent_fleet.vector_store.vector_store - INFO - Banco de dados vetorial carregado com sucesso.

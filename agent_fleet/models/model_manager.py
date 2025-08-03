@@ -2,7 +2,7 @@ from typing import Dict, Any, Optional
 from langchain_community.llms import HuggingFaceHub, OpenAI
 from langchain_community.embeddings import HuggingFaceEmbeddings, OpenAIEmbeddings
 from langchain.llms.base import BaseLLM
-from config.settings import settings, ModelType
+from agent_fleet.config.settings import settings, ModelType
 import logging
 
 logger = logging.getLogger(__name__)

@@ -3,7 +3,7 @@ from typing import List, Dict, Any, Optional
 from langchain.agents import Tool, AgentExecutor
 from langchain.memory import ConversationBufferMemory
 from langchain.schema import BaseMessage
-from config.settings import settings
+from agent_fleet.config.settings import settings
 
 class BaseAgent(ABC):
     """Classe base para todos os agentes da frota."""
